@@ -9,7 +9,6 @@
     <script src="https://kit.fontawesome.com/a2242fc9df.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
     <nav class="nav">
 
         <div class="nav__container">
@@ -117,18 +116,18 @@
         </div>
 
     </nav>
-
+    <br><br>
     <div class="box">
         <div class="search-box">
-          <input type="text" placeholder="Busca un libro">
-          
-            <a href="#" class="search-icon">
-                <img src="assets/search.svg" alt="">
-            </a>
-          
+          <input type="text" id="input-search" placeholder="Busca un libro">
+          <a href="#" class="search-icon" onclick="buscarLibros()">
+            <img src="assets/search.svg" alt="">
+          </a>
         </div>
       </div>
-    
+      <br><br><br><br><br>
+      <div id="resultados-busqueda"></div>
+      
         <div class="texto-principal">
         <h2>¿Estás listo para encontrar tu nueva lectura?</h2>
        </div>
@@ -137,131 +136,180 @@
        <section class=" cartas">
           <div class="carta">
           
-               <img src="img/libro1.jpg" class="card-img">
+               <img src="img/libroa.png" class="card-img">
                 <div class="card-body">
-                  <h3 class="card-title">Filosofia felina</h3>
-                  <p class="card-subtitle">John Gray</p>
-                  <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
+                  <h3 class="card-title">Destino en París</h3>
+                  <p class="card-subtitle">Alexandra Rivers</p>
+                  <p class="card-info">En las calles de París, dos almas solitarias encuentran el amor en los momentos más inesperados. ¿Podrá su conexión resistir los fantasmas del pasado?</p>
                   <a href="libro.html"class="card-btn">Leer</a>
                 </div>
               
           </div>
           <div class="carta">
           
-              <img src="img/libro2.jpg" class="card-img">
+              <img src="img/librob.png" class="card-img">
                <div class="card-body">
-                 <h3 class="card-title">Filosofia felina</h3>
-                 <p class="card-subtitle">John Gray</p>
-                 <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-                 <button class="card-btn">Leer</button>
+                 <h3 class="card-title">El juego del Destino</h3>
+                 <p class="card-subtitle">Gabriel Williams</p>
+                 <p class="card-info">Sumérgete en el mundo del juego de Las Vegas, donde el amor y el peligro se entrelazan. </p>
+                 <a href="libro2.html"class="card-btn">Leer</a>
                </div>
              
          </div>
          <div class="carta">
           
-          <img src="img/libro3.jpg" class="card-img">
+          <img src="img/libroc.png" class="card-img">
            <div class="card-body">
-             <h3 class="card-title">Filosofia felina</h3>
-             <p class="card-subtitle">John Gray</p>
-             <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-             <button class="card-btn">Leer</button>
+             <h3 class="card-title">El Enigma del Templo Perdido</h3>
+             <p class="card-subtitle">Daniel Mitchell</p>
+             <p class="card-info">¡Aventúrate en la selva amazónica y descubre los secretos ancestrales del misterioso templo perdido! </p>
+             <a href="libro3.html"class="card-btn">Leer</a>
            </div>
          
       </div>
       <div class="carta">
           
-          <img src="img/libro1.jpg" class="card-img">
+          <img src="img/librod.png" class="card-img">
            <div class="card-body">
-             <h3 class="card-title">Filosofia felina</h3>
-             <p class="card-subtitle">John Gray</p>
-             <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-             <button class="card-btn">Leer</button>
+             <h3 class="card-title">La Búsqueda del Tesoro del Capitán Black</h3>
+             <p class="card-subtitle">Olivia Anderson</p>
+             <p class="card-info">¡Embárcate en una emocionante búsqueda por el Caribe en busca del tesoro perdido! Enfrenta peligros marinos y traiciones.</p>
+             <a href="libro4.html"class="card-btn">Leer</a>
            </div>
          
       </div>
       <div class="carta">
       
-         <img src="img/libro2.jpg" class="card-img">
+         <img src="img/libroe.png" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">Filosofia felina</h3>
-            <p class="card-subtitle">John Gray</p>
-            <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-            <button class="card-btn">Leer</button>
+            <h3 class="card-title">El Reino de los Sueños</h3>
+            <p class="card-subtitle">Victoria Summers</p>
+            <p class="card-info"> ¡Adéntrate en un mundo mágico donde los sueños se hacen realidad! Acompaña a Emma en su emocionante aventura</p>
+            <a href="libro5.html"class="card-btn">Leer</a>
           </div>
         
       </div>
       <div class="carta">
       
-      <img src="img/libro3.jpg" class="card-img">
+      <img src="img/librof.png" class="card-img">
       <div class="card-body">
-        <h3 class="card-title">Filosofia felina</h3>
-        <p class="card-subtitle">John Gray</p>
-        <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-        <button class="card-btn">Leer</button>
+        <h3 class="card-title">La Espada de las Sombras</h3>
+        <p class="card-subtitle">Gabriel Knight</p>
+        <p class="card-info"> ¡Prepárate para una aventura épica en un reino sumido en la oscuridad! Acompaña a Ethan en su búsqueda de la Espada de las Sombras</p>
+        <a href="libro6.html"class="card-btn">Leer</a>
       </div>
       
       </div>
       <div class="carta">
           
-          <img src="img/libro1.jpg" class="card-img">
+          <img src="img/librog.png" class="card-img">
            <div class="card-body">
-             <h3 class="card-title">Filosofia felina</h3>
-             <p class="card-subtitle">John Gray</p>
-             <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-             <button class="card-btn">Leer</button>
+             <h3 class="card-title">La Mansión de los Susurros</h3>
+             <p class="card-subtitle">Benjamin Darkwood</p>
+             <p class="card-info">¡Adéntrate en una mansión abandonada donde los susurros del pasado desatan el horror! Únete a Emma en su escalofriante investigación</p>
+             <a href="libro7.html"class="card-btn">Leer</a>
            </div>
          
       </div>
       <div class="carta">
       
-         <img src="img/libro2.jpg" class="card-img">
+         <img src="img/libroh.png" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">Filosofia felina</h3>
-            <p class="card-subtitle">John Gray</p>
-            <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-            <button class="card-btn">Leer</button>
+            <h3 class="card-title">El Espejo de la Oscuridad</h3>
+            <p class="card-subtitle">Isabella Nightshade</p>
+            <p class="card-info">¡Enfréntate a tus miedos en un viaje a través de la oscuridad reflejada en "El Espejo de la Oscuridad" de Isabella Nightshade!</p>
+            <a href="libro8.html"class="card-btn">Leer</a>
           </div>
         
       </div>
       <div class="carta">
       
-      <img src="img/libro3.jpg" class="card-img">
+      <img src="img/libroi.png" class="card-img">
       <div class="card-body">
-        <h3 class="card-title">Filosofia felina</h3>
-        <p class="card-subtitle">John Gray</p>
-        <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-        <button class="card-btn">Leer</button>
+        <h3 class="card-title">El Enigma del Último Asesinato</h3>
+        <p class="card-subtitle">Max Sullivan</p>
+        <p class="card-info">¡Enfréntate al enigma más desafiante en "El Enigma del Último Asesinato" de Max Sullivan! Acompaña al detective Jack Thompson en su búsqueda</p>
+        <a href="libro9.html"class="card-btn">Leer</a>
       </div>
       
       </div>
       <div class="carta">
           
-          <img src="img/libro1.jpg" class="card-img">
+          <img src="img/libroj.png" class="card-img">
            <div class="card-body">
-             <h3 class="card-title">Filosofia felina</h3>
-             <p class="card-subtitle">John Gray</p>
-             <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-             <button class="card-btn">Leer</button>
+             <h3 class="card-title">La Sombra del Pasado</h3>
+             <p class="card-subtitle">Rachel Monroe</p>
+             <p class="card-info">¡Adéntrate en la oscuridad de "La Sombra del Pasado" de Rachel Monroe! Únete a la detective Emily Miller</p>
+             <a href="libro10.html"class="card-btn">Leer</a>
            </div>
          
       </div>
       <div class="carta">
       
-         <img src="img/libro2.jpg" class="card-img">
+         <img src="img/librok.png" class="card-img">
           <div class="card-body">
-            <h3 class="card-title">Filosofia felina</h3>
-            <p class="card-subtitle">John Gray</p>
-            <p class="card-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil autem aliquam impedit, exercitationem quod temporibus reiciendis dicta possimus vitae</p>
-            <button class="card-btn">Leer</button>
+            <h3 class="card-title">El Latido de Tus Palabras</h3>
+            <p class="card-subtitle">Emma Bennett</p>
+            <p class="card-info">Una escritora solitaria. Un misterioso confidente. Descubre el poder del amor a través de las palabras en esta cautivadora novela romántica.</p>
+            <a href="libro11.html"class="card-btn">Leer</a>
           </div>
         
       </div>
+      <iframe src="https://open.spotify.com/embed/playlist/2XQ2h5FLnEeG5cYbzJRiba?si=6c802364ee634022" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" allow="control"></iframe>
 
        </section>
 
-    
+    <script>
+        function buscarLibros() {
+            var searchTerm = document.getElementById("input-search").value;
+            var url = "https://www.googleapis.com/books/v1/volumes?q=" + searchTerm;
+        
+            fetch(url)
+              .then(response => response.json())
+              .then(data => {
+                var resultadosDiv = document.getElementById("resultados-busqueda");
+                resultadosDiv.innerHTML = "";
+        
+                if (data.items && data.items.length > 0) {
+
+                  var tituloH1 = document.createElement("h1");
+                  tituloH1.textContent = "Resultados de tu búsqueda";
+                  resultadosDiv.appendChild(tituloH1);
+        
+                  resultadosDiv.appendChild(document.createElement("br"));
+                  resultadosDiv.appendChild(document.createElement("br"));
+        
+                  for (var i = 0; i < data.items.length; i++) {
+                    var titulo = data.items[i].volumeInfo.title;
+                    var link = data.items[i].volumeInfo.previewLink;
+                    var imagenLink = data.items[i].volumeInfo.imageLinks?.thumbnail;
+        
+                    if (imagenLink) {
+                      var a = document.createElement("a");
+                      a.href = link;
+                      a.target = "_blank";
+        
+                      var img = document.createElement("img");
+                      img.src = imagenLink;
+                      img.alt = titulo;
+                      img.classList.add("book-image");
+        
+                      a.appendChild(img);
+                      resultadosDiv.appendChild(a);
+                    }
+                  }
+                } else {
+                  resultadosDiv.innerHTML = "";
+                }
+              })
+              .catch(error => {
+                console.error(error);
+              });
+          }
+    </script>
 
     <footer>
+        
         <div class="nombre">
             <h3>Novelink</h3>
         </div>
@@ -273,13 +321,13 @@
         </div>
 
         <div class="redes">
-            <a href="#">
+            <a href="https://www.instagram.com/novelinkcac/" target="_blank">
                 <img src="assets/ig.svg" alt="Instagram">
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/profile.php?id=100093053049256" target="_blank">
                 <img src="assets/fb.svg" alt="Facebook">
             </a>
-            <a href="#">
+            <a href="https://twitter.com/NovelinkCaC" target="_blank">
                 <img src="assets/tt.svg" alt="Twitter">
             </a>
         </div>
